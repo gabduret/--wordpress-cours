@@ -20,7 +20,7 @@ wp_enqueue_style( 'googlefont_style' );
 // enregistrement d'un nouveau style
 wp_register_style( 'bootstrap_style', CSS_URL . '/bootstrap.min.css' );
 // appel du style dans la page
-wp_enqueue_style( 'mbootstrap_style' );
+wp_enqueue_style( 'bootstrap_style' );
 
 // enregistrement d'un nouveau style
 wp_register_style( 'main_style', CSS_URL . '/main.css' );

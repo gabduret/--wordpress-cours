@@ -18,7 +18,8 @@
         <!-- Tout le contenu de l entête de mon site -->
 			<div class="container">
 				<div class="col-sm-12">
-					<h1><?php bloginfo("title"); ?></h1>
+					<img src="<?= IMAGES_URL; ?>/photo.jpg" alt="<?php bloginfo("title");?>" class="logo">
+					<h1><a href="<?php bloginfo("url"); ?>" title="<?php bloginfo("title"); ?>"><?php bloginfo("title"); ?></a></h1>
 					<h3><?php bloginfo("description"); ?></h3>
 				</div>
 			</div>

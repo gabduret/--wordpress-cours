@@ -2,6 +2,9 @@ body {
 	background: #222222;
 	color: #dddddd;
 }
+pre {
+	color: #dddddd;
+}
 
 h1,h2,h3,h4 {
 	font-family: 'Abril Fatface';
@@ -16,3 +19,15 @@ a:hover {
 	color: #f39c12;
 }
 
+.logo {
+	float: left;
+	max-width: 150px;
+	height: auto;
+	padding-right: 20px;
+}
+
+.thumbnail img {
+	max-width: 100%;
+	height: auto;
+	
+}
