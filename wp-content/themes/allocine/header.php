@@ -16,5 +16,11 @@
     <body <?php body_class(); ?>>
         <header id="header">
         <!-- Tout le contenu de l entête de mon site -->
-        <h1>Coucou</h1>
+			<div class="container">
+				<div class="col-sm-12">
+					<h1><?php bloginfo("title"); ?></h1>
+					<h3><?php bloginfo("description"); ?></h3>
+				</div>
+			</div>
+
         </header>
